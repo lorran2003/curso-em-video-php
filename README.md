@@ -13,5 +13,5 @@ docker build -t server-apache-php .
 > Observação: Para executar este comando, acesse o diretório do projeto.
 
 ```bash
-docker run -d -p 80:80 --name server-php -v "${PWD}:/var/www/html" server-apache-php
+docker run -d -p 80:80 --name name-container -v "${PWD}:/var/www/html" server-apache-php
 ```

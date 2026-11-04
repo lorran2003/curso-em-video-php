@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores aritimetico</title>
+</head>
+
+<body>
+    <h1>ola mundo</h1>
+    <?php 
+        $ola = "2" + "2";
+        var_dump($ola);
+    ?>
+</body>
+
+</html>
